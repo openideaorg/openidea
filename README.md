@@ -1,6 +1,6 @@
 # OpenIdea
 
-OpenIdea brings together open research, code, data, and designs to help innovators collaborate and build on each other's work. The project is built with [Next.js](https://nextjs.org) and Tailwind CSS.
+OpenIdea brings together open research, code, data, and designs to help innovators collaborate and build on each other's work. 
 
 ## Requirements
 
