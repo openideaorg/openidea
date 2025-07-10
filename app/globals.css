@@ -1,5 +1,25 @@
 @import "tailwindcss";
 @import "@fortawesome/fontawesome-free/css/all.min.css";
+.gradient-text {
+  background: linear-gradient(90deg, #10ff8b, #2fd0ff 60%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.bg-neon-green {
+  background: #10ff8b;
+}
+.bg-neon-blue {
+  background: #2fd0ff;
+}
+.text-neon-green {
+  color: #10ff8b;
+}
+.border-neon-green {
+  border-color: #10ff8b;
+}
+.drop-shadow-neon {
+  filter: drop-shadow(0 0 8px #10ff8b);
+}
 
 /* --- Neon Color Palette & Utility Classes --- */
 :root {
