@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -84,7 +84,7 @@ export default function Footer() {
 
         {/* 🔚 Bottom Note */}
         <div className="mt-8 text-center text-xs text-gray-500">
-          © 2025 ECOSYZ. All rights reserved. Built with{" "}
+          © 2025 ECOSYZ. All rights reserved. Built with{' '}
           <span className="text-emerald-400">❤️</span> for global innovation.
         </div>
       </footer>

@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
-
 export default function Header() {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -22,6 +21,7 @@ export default function Header() {
         <Image src="/eco.png" alt="Open Idea Logo" width={36} height={36} />
         <span className="text-xl font-bold gradient-text ml-2">Open Idea</span>
       </Link>
+
       <nav className="space-x-6 text-sm font-medium flex items-center gap-4">
         <Link href="/about" className="hover:text-green-600">About</Link>
         <Link href="/projects" className="hover:text-green-600">Projects</Link>

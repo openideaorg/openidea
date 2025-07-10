@@ -39,6 +39,7 @@ export default function Hero() {
                 The Home for Builders, Dreamers, and Doers
               </p>
               <p className="mt-2 text-gray-400 text-base md:text-lg max-w-xl mx-auto lg:mx-0">
+
                 All the world's open knowledge—unified. Build, collaborate, and change the world together, openly.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row sm:justify-start gap-4 justify-center">
@@ -60,7 +61,15 @@ export default function Hero() {
             <div className="lg:col-span-6 flex justify-center items-center mt-14 lg:mt-0">
               <div className="relative w-80 h-80 sm:w-96 sm:h-96 rounded-2xl bg-gradient-to-tr from-[#19343d] via-[#152624] to-[#0f1b1c] shadow-lg flex items-center justify-center">
                 <div className="absolute inset-0 rounded-2xl z-0 blur-2xl bg-gradient-radial from-emerald-300/20 to-transparent" />
-                <Image src="/eco.png" alt="Open Innovation" fill className="object-contain z-10 drop-shadow-[0_0_32px_#12ffb8bb]" priority />
+                <Image
+                  src="/eco.png"
+                  alt="Open Innovation"
+                  fill
+                  className="object-contain z-10 drop-shadow-[0_0_32px_#12ffb8bb]"
+                  priority
+                />
+
+
               </div>
             </div>
           </div>
@@ -68,6 +77,7 @@ export default function Hero() {
         {/* Subtle Divider */}
         <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-emerald-400 to-transparent opacity-60" />
       </section>
+
 
       <FeatureCards />
       <PurposeSection />

@@ -1,5 +1,6 @@
-@import "tailwindcss";
-@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import 'tailwindcss';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
 .gradient-text {
   background: linear-gradient(90deg, #10ff8b, #2fd0ff 60%);
   -webkit-background-clip: text;
@@ -82,10 +83,14 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
   letter-spacing: 0.01em;
-
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-sans);
   font-weight: 700;
   letter-spacing: 0.015em;
@@ -96,30 +101,73 @@ a {
 }
 
 /* --- Neon Text and BG Utilities --- */
-.text-neon-green     { color: var(--neon-green) !important; }
-.text-neon-blue      { color: var(--neon-blue) !important; }
-.text-neon-purple    { color: var(--neon-purple) !important; }
-.text-neon-cyan      { color: var(--neon-cyan) !important; }
-.bg-neon-green       { background: var(--neon-green) !important; }
-.bg-neon-blue        { background: var(--neon-blue) !important; }
-.bg-neon-purple      { background: var(--neon-purple) !important; }
-.bg-dark             { background: var(--dark-bg) !important; }
-.bg-dark-secondary   { background: var(--dark-secondary) !important; }
-.bg-dark-card        { background: var(--dark-card) !important; }
-.border-neon-green   { border-color: var(--neon-green) !important; }
-.border-neon-blue    { border-color: var(--neon-blue) !important; }
+.text-neon-green {
+  color: var(--neon-green) !important;
+}
+.text-neon-blue {
+  color: var(--neon-blue) !important;
+}
+.text-neon-purple {
+  color: var(--neon-purple) !important;
+}
+.text-neon-cyan {
+  color: var(--neon-cyan) !important;
+}
+.bg-neon-green {
+  background: var(--neon-green) !important;
+}
+.bg-neon-blue {
+  background: var(--neon-blue) !important;
+}
+.bg-neon-purple {
+  background: var(--neon-purple) !important;
+}
+.bg-dark {
+  background: var(--dark-bg) !important;
+}
+.bg-dark-secondary {
+  background: var(--dark-secondary) !important;
+}
+.bg-dark-card {
+  background: var(--dark-card) !important;
+}
+.border-neon-green {
+  border-color: var(--neon-green) !important;
+}
+.border-neon-blue {
+  border-color: var(--neon-blue) !important;
+}
 
 /* --- Neon Shadows and Glows --- */
-.shadow-neon-green   { box-shadow: var(--shadow-neon-green) !important; }
-.shadow-neon-blue    { box-shadow: var(--shadow-neon-blue) !important; }
-.shadow-neon-cyan    { box-shadow: var(--shadow-neon-cyan) !important; }
-.shadow-neon-purple  { box-shadow: var(--shadow-neon-purple) !important; }
-.drop-shadow-neon    { filter: drop-shadow(0 0 10px #12ffb880) drop-shadow(0 0 22px #39ff14cc); }
-.text-glow           { text-shadow: 0 0 8px #38ffc1, 0 0 24px #12ffb8; }
+.shadow-neon-green {
+  box-shadow: var(--shadow-neon-green) !important;
+}
+.shadow-neon-blue {
+  box-shadow: var(--shadow-neon-blue) !important;
+}
+.shadow-neon-cyan {
+  box-shadow: var(--shadow-neon-cyan) !important;
+}
+.shadow-neon-purple {
+  box-shadow: var(--shadow-neon-purple) !important;
+}
+.drop-shadow-neon {
+  filter: drop-shadow(0 0 10px #12ffb880) drop-shadow(0 0 22px #39ff14cc);
+}
+.text-glow {
+  text-shadow:
+    0 0 8px #38ffc1,
+    0 0 24px #12ffb8;
+}
 
 /* --- Neon Gradient Text Effect --- */
 .gradient-text {
-  background: linear-gradient(90deg, var(--neon-green), var(--neon-blue), var(--neon-purple));
+  background: linear-gradient(
+    90deg,
+    var(--neon-green),
+    var(--neon-blue),
+    var(--neon-purple)
+  );
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -132,10 +180,14 @@ a {
 }
 @keyframes neonGlow {
   from {
-    text-shadow: 0 0 8px #38ffc1, 0 0 20px #10ffbb;
+    text-shadow:
+      0 0 8px #38ffc1,
+      0 0 20px #10ffbb;
   }
   to {
-    text-shadow: 0 0 16px #3fffc7, 0 0 36px #14ffc9;
+    text-shadow:
+      0 0 16px #3fffc7,
+      0 0 36px #14ffc9;
   }
 }
 
@@ -144,11 +196,15 @@ a {
   background: var(--dark-secondary);
   border: 1.5px solid var(--neon-green);
   border-radius: 1.25rem;
-  transition: box-shadow 0.3s, transform 0.2s;
+  transition:
+    box-shadow 0.3s,
+    transform 0.2s;
 }
 .feature-card:hover {
   transform: translateY(-6px) scale(1.03);
-  box-shadow: 0 0 20px 2px var(--neon-green), 0 24px 34px -12px #0008;
+  box-shadow:
+    0 0 20px 2px var(--neon-green),
+    0 24px 34px -12px #0008;
 }
 
 /* --- Icon Container for Neon Cards --- */
@@ -170,16 +226,27 @@ a {
   animation: float 6s ease-in-out infinite;
 }
 @keyframes float {
-  0%   { transform: translateY(0px);}
-  50%  { transform: translateY(-18px);}
-  100% { transform: translateY(0px);}
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-18px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 /* --- Section Divider Line --- */
 .section-divider {
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, var(--neon-green), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--neon-green),
+    transparent
+  );
   opacity: 0.55;
   margin: 2.5rem 0;
   box-shadow: 0 0 14px 1px var(--neon-green);
@@ -193,12 +260,17 @@ a {
 
 /* --- Responsive Touchups for Cards --- */
 @media (max-width: 640px) {
-  .feature-card { border-radius: 1rem; padding: 1.5rem; }
+  .feature-card {
+    border-radius: 1rem;
+    padding: 1.5rem;
+  }
 }
 
 /* --- Cards / Sections in Dark Mode --- */
 @media (prefers-color-scheme: dark) {
-  section, .bg-white, .bg-gray-50 {
+  section,
+  .bg-white,
+  .bg-gray-50 {
     background: var(--dark-bg) !important;
     color: var(--foreground) !important;
   }
@@ -212,9 +284,15 @@ a {
 }
 
 /* --- Utility for Card Borders of All Neon Colors (for reuse) --- */
-.border-neon-purple { border-color: var(--neon-purple) !important; }
-.border-neon-cyan   { border-color: var(--neon-cyan) !important; }
+.border-neon-purple {
+  border-color: var(--neon-purple) !important;
+}
+.border-neon-cyan {
+  border-color: var(--neon-cyan) !important;
+}
 
 /* --- Misc. --- */
 /* ::-webkit-scrollbar-thumb { background: var(--neon-green); } */
-::-webkit-scrollbar { background: var(--dark-bg); }
+::-webkit-scrollbar {
+  background: var(--dark-bg);
+}
