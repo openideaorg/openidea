@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Open Idea',
-  description: "The World's Open Innovation Infrastructure",
+  description: "The World&apos;s Open Innovation Infrastructure",
 };
 
 export default function RootLayout({

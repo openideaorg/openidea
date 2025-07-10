@@ -10,7 +10,7 @@ export default function CommunitySection() {
         <div className="lg:text-center mb-14">
           <h2 className="text-base text-cyan-300 font-semibold tracking-widest uppercase">Community</h2>
           <p className="mt-2 text-3xl sm:text-4xl font-extrabold text-transparent bg-gradient-to-r from-emerald-300 via-cyan-400 to-teal-300 bg-clip-text animate-glow">
-            Who It's For
+            Who It&apos;s For
           </p>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-teal-100/80 font-medium">
             Builders, developers, researchers, students, educators, entrepreneurs, creators.
