@@ -33,14 +33,14 @@ export default function Hero() {
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-teal-100/90 font-medium mt-6">
-                The World's Open Innovation Infrastructure
+                The World&apos;s Open Innovation Infrastructure
               </p>
               <p className="mt-2 text-teal-200/70 text-lg md:text-xl">
                 The Home for Builders, Dreamers, and Doers
               </p>
               <p className="mt-2 text-gray-400 text-base md:text-lg max-w-xl mx-auto lg:mx-0">
 
-                All the world's open knowledge—unified. Build, collaborate, and change the world together, openly.
+                All the world&apos;s open knowledge—unified. Build, collaborate, and change the world together, openly.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row sm:justify-start gap-4 justify-center">
                 <a
