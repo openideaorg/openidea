@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Header() {
   return (
@@ -9,12 +9,17 @@ export default function Header() {
       <Link href="/" className="flex items-center gap-2">
         <Image src="/eco.png" alt="Open Idea Logo" width={36} height={36} />
         <span className="text-xl font-bold gradient-text ml-2">Open Idea</span>
-
       </Link>
       <nav className="space-x-6 text-sm font-medium">
-        <Link href="/about" className="hover:text-green-600">About</Link>
-        <Link href="/projects" className="hover:text-green-600">Projects</Link>
-        <Link href="/contribute" className="hover:text-green-600">Contribute</Link>
+        <Link href="/about" className="hover:text-green-600">
+          About
+        </Link>
+        <Link href="/projects" className="hover:text-green-600">
+          Projects
+        </Link>
+        <Link href="/contribute" className="hover:text-green-600">
+          Contribute
+        </Link>
       </nav>
     </header>
   );
