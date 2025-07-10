@@ -9,24 +9,42 @@ export default function ImpactSection() {
           <h2 className="text-3xl sm:text-4xl font-bold text-transparent bg-gradient-to-r from-emerald-300 via-teal-400 to-cyan-400 bg-clip-text animate-glow mb-4">
             Platform Impact
           </h2>
-          <p className="text-lg sm:text-xl text-teal-100/90 font-medium">Real numbers from our growing ecosystem</p>
+          <p className="text-lg sm:text-xl text-teal-100/90 font-medium">
+            Real numbers from our growing ecosystem
+          </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div className="bg-[#1c2623] border border-emerald-400/30 rounded-xl p-8 text-center shadow-lg hover:shadow-[0_0_28px_#10b98130] transition">
-            <div className="text-5xl font-extrabold text-emerald-300 drop-shadow-neon">10M+</div>
-            <div className="mt-2 text-lg font-medium text-teal-100/80">Open Resources Indexed</div>
+            <div className="text-5xl font-extrabold text-emerald-300 drop-shadow-neon">
+              10M+
+            </div>
+            <div className="mt-2 text-lg font-medium text-teal-100/80">
+              Open Resources Indexed
+            </div>
           </div>
           <div className="bg-[#1c2623] border border-emerald-400/30 rounded-xl p-8 text-center shadow-lg hover:shadow-[0_0_28px_#10b98130] transition">
-            <div className="text-5xl font-extrabold text-emerald-300 drop-shadow-neon">50K+</div>
-            <div className="mt-2 text-lg font-medium text-teal-100/80">Active Builders</div>
+            <div className="text-5xl font-extrabold text-emerald-300 drop-shadow-neon">
+              50K+
+            </div>
+            <div className="mt-2 text-lg font-medium text-teal-100/80">
+              Active Builders
+            </div>
           </div>
           <div className="bg-[#1c2623] border border-emerald-400/30 rounded-xl p-8 text-center shadow-lg hover:shadow-[0_0_28px_#10b98130] transition">
-            <div className="text-5xl font-extrabold text-emerald-300 drop-shadow-neon">1,000+</div>
-            <div className="mt-2 text-lg font-medium text-teal-100/80">Projects Launched</div>
+            <div className="text-5xl font-extrabold text-emerald-300 drop-shadow-neon">
+              1,000+
+            </div>
+            <div className="mt-2 text-lg font-medium text-teal-100/80">
+              Projects Launched
+            </div>
           </div>
           <div className="bg-[#1c2623] border border-emerald-400/30 rounded-xl p-8 text-center shadow-lg hover:shadow-[0_0_28px_#10b98130] transition">
-            <div className="text-5xl font-extrabold text-emerald-300 drop-shadow-neon">100+</div>
-            <div className="mt-2 text-lg font-medium text-teal-100/80">Countries Represented</div>
+            <div className="text-5xl font-extrabold text-emerald-300 drop-shadow-neon">
+              100+
+            </div>
+            <div className="mt-2 text-lg font-medium text-teal-100/80">
+              Countries Represented
+            </div>
           </div>
         </div>
       </div>

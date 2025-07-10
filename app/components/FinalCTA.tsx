@@ -12,13 +12,20 @@ export default function FinalCTA() {
             Be First to Join
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-xl text-teal-100/90 font-medium">
-            Sign up now for early access, exclusive features, and the chance to shape the future of open innovation.
+            Sign up now for early access, exclusive features, and the chance to
+            shape the future of open innovation.
           </p>
           <div className="mt-8 flex justify-center space-x-4">
-            <a href="#waitlist" className="px-6 py-3 rounded-md bg-gradient-to-r from-emerald-400 to-cyan-400 text-gray-900 font-semibold shadow hover:scale-105 transition">
+            <a
+              href="#waitlist"
+              className="px-6 py-3 rounded-md bg-gradient-to-r from-emerald-400 to-cyan-400 text-gray-900 font-semibold shadow hover:scale-105 transition"
+            >
               Join the waitlist
             </a>
-            <a href="#newsletter" className="px-6 py-3 rounded-md border border-cyan-400 text-cyan-200 font-semibold shadow hover:bg-cyan-400 hover:text-gray-900 transition">
+            <a
+              href="#newsletter"
+              className="px-6 py-3 rounded-md border border-cyan-400 text-cyan-200 font-semibold shadow hover:bg-cyan-400 hover:text-gray-900 transition"
+            >
               Subscribe to our newsletter
             </a>
           </div>

@@ -12,7 +12,11 @@ export default function FeatureCards() {
             Unifying open research, code, data, and designs
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-teal-100/80 font-medium">
-            Discover every open resource you need—research, code, datasets, designs, and more—in one powerful search. Turn inspiration into action: start projects, remix ideas, and join a thriving community of innovators, makers, and thinkers. Accelerate your vision. Multiply your impact.
+            Discover every open resource you need—research, code, datasets,
+            designs, and more—in one powerful search. Turn inspiration into
+            action: start projects, remix ideas, and join a thriving community
+            of innovators, makers, and thinkers. Accelerate your vision.
+            Multiply your impact.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -22,16 +26,21 @@ export default function FeatureCards() {
             </div>
             <h3 className="mt-6 text-lg font-semibold">Unified Search</h3>
             <p className="mt-2 text-base text-teal-100/80">
-              Find open-source code, research papers, datasets, hardware designs, videos, and more from across the web—all in one place.
+              Find open-source code, research papers, datasets, hardware
+              designs, videos, and more from across the web—all in one place.
             </p>
           </div>
           <div className="p-8 rounded-xl border border-emerald-400/40 bg-[#172024] hover:shadow-[0_0_24px_#14ff6e80] transition text-center">
             <div className="mx-auto mb-4 flex items-center justify-center h-12 w-12 rounded-full bg-neon-green text-gray-900 shadow">
               <i className="fas fa-rocket text-2xl"></i>
             </div>
-            <h3 className="mt-6 text-lg font-semibold">Build and Launch Projects</h3>
+            <h3 className="mt-6 text-lg font-semibold">
+              Build and Launch Projects
+            </h3>
             <p className="mt-2 text-base text-teal-100/80">
-              Start new projects using open resources as building blocks. Create public or private workspaces, document your progress, and invite collaborators.
+              Start new projects using open resources as building blocks. Create
+              public or private workspaces, document your progress, and invite
+              collaborators.
             </p>
           </div>
           <div className="p-8 rounded-xl border border-emerald-400/40 bg-[#172024] hover:shadow-[0_0_24px_#b38fff80] transition text-center">
@@ -40,7 +49,9 @@ export default function FeatureCards() {
             </div>
             <h3 className="mt-6 text-lg font-semibold">Join the Community</h3>
             <p className="mt-2 text-base text-teal-100/80">
-              Connect with fellow innovators, experts, and learners worldwide. Share feedback, ask questions, join groups, and participate in events.
+              Connect with fellow innovators, experts, and learners worldwide.
+              Share feedback, ask questions, join groups, and participate in
+              events.
             </p>
           </div>
         </div>

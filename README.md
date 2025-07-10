@@ -1,6 +1,6 @@
 # OpenIdea
 
-OpenIdea brings together open research, code, data, and designs to help innovators collaborate and build on each other's work. 
+OpenIdea brings together open research, code, data, and designs to help innovators collaborate and build on each other's work.
 
 ## Requirements
 
@@ -16,6 +16,14 @@ npm run dev
 ```
 
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Formatting
+
+To automatically format project files, run:
+
+```bash
+npm run format
+```
 
 ## Contributing
 
