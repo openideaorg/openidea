@@ -10,7 +10,7 @@ export default function ResourcesSection() {
         <div className="lg:text-center mb-14">
           <h2 className="text-base text-cyan-300 font-semibold tracking-widest uppercase">Resources</h2>
           <p className="mt-2 text-3xl sm:text-4xl font-extrabold text-transparent bg-gradient-to-r from-emerald-300 via-cyan-400 to-teal-300 bg-clip-text animate-glow">
-            What are "Open Resources"?
+            What are &quot;Open Resources&quot;?
           </p>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-teal-100/70 font-medium">
             These are freely accessible, reusable, and modifiable assets created by individuals, communities, or institutions.

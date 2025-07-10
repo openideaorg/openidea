@@ -22,9 +22,9 @@ export default function TechnologySection() {
               </span>
               <h3 className="text-lg font-medium">Semantic Search and Recommendation</h3>
             </div>
-            <p className="mt-4 text-teal-100/80">
-              AI understands meaning, not just keywords. Users can search "reverse aging gene therapies with open datasets" and get exact matches, even if sources use different language.
-            </p>
+              <p className="mt-4 text-teal-100/80">
+                AI understands meaning, not just keywords. Users can search &quot;reverse aging gene therapies with open datasets&quot; and get exact matches, even if sources use different language.
+              </p>
           </div>
           <div className="bg-[#192527] p-6 rounded-xl border border-emerald-400/30 shadow-md">
             <div className="flex items-center gap-4">
@@ -33,9 +33,9 @@ export default function TechnologySection() {
               </span>
               <h3 className="text-lg font-medium">Auto-tagging & Smart Categorization</h3>
             </div>
-            <p className="mt-4 text-teal-100/80">
-              NLP models tag new resources with domains, technologies, methods, outcomes, licenses—without manual effort. Detects "hidden" connections.
-            </p>
+              <p className="mt-4 text-teal-100/80">
+                NLP models tag new resources with domains, technologies, methods, outcomes, licenses—without manual effort. Detects &quot;hidden&quot; connections.
+              </p>
           </div>
           <div className="bg-[#192527] p-6 rounded-xl border border-purple-400/30 shadow-md">
             <div className="flex items-center gap-4">
@@ -62,10 +62,10 @@ export default function TechnologySection() {
               <span className="flex-shrink-0 bg-red-400/20 p-3 rounded-md">
                 <i className="fas fa-random text-red-300 text-xl"></i>
               </span>
-              <h3 className="text-lg font-medium">"Remix" or "Build with AI"</h3>
+              <h3 className="text-lg font-medium">&quot;Remix&quot; or &quot;Build with AI&quot;</h3>
             </div>
             <p className="mt-4 text-teal-100/80">
-              AI suggests possible project ideas: "You could combine these datasets and this code to create a new anti-aging predictor." Auto-generate starter project templates.
+              AI suggests possible project ideas: &quot;You could combine these datasets and this code to create a new anti-aging predictor.&quot; Auto-generate starter project templates.
             </p>
           </div>
           <div className="bg-[#192527] p-6 rounded-xl border border-cyan-400/30 shadow-md">
@@ -76,7 +76,7 @@ export default function TechnologySection() {
               <h3 className="text-lg font-medium">Expert Q&A/Assistant</h3>
             </div>
             <p className="mt-4 text-teal-100/80">
-              An LLM trained on your platform acts as a "community brain"—answering questions, suggesting resources, providing mentorship.
+              An LLM trained on your platform acts as a &quot;community brain&quot;—answering questions, suggesting resources, providing mentorship.
             </p>
           </div>
         </div>
