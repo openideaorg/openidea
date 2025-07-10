@@ -23,10 +23,11 @@ export default function Header() {
       </Link>
 
       <nav className="space-x-6 text-sm font-medium flex items-center gap-4">
-        <Link href="/about" className="hover:text-green-600">About</Link>
-        <Link href="/projects" className="hover:text-green-600">Projects</Link>
-        <Link href="/contribute" className="hover:text-green-600">Contribute</Link>
-        <button
+       <Link href="/openresources" className="hover:text-green-400 transition">Resources</Link>
+        <Link href="/projects" className="hover:text-green-400 transition">Projects</Link>
+        <Link href="/community" className="hover:text-green-400 transition">Community</Link>
+        <Link href="/whitepaper" className="hover:text-green-400 transition">Whitepaper</Link>
+         <button
           onClick={toggleTheme}
           aria-label="Toggle Theme"
           className="p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700"
