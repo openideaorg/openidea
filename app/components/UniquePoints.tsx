@@ -26,7 +26,7 @@ export default function UniquePoints() {
               <i className="fas fa-bolt text-xl"></i>
             </div>
             <h3 className="mt-4 text-lg font-semibold">Discovery → Action</h3>
-            <p className="mt-2 text-base text-teal-100/70">Don't just read—build, remix, and do something immediately</p>
+            <p className="mt-2 text-base text-teal-100/70">Don&apos;t just read—build, remix, and do something immediately</p>
           </div>
           <div className="text-center bg-[#162322] border border-emerald-400/30 rounded-xl p-6 shadow-md">
             <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-purple-700/30 text-purple-200">

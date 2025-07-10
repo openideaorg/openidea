@@ -23,7 +23,7 @@ export default function ChallengesSection() {
                 <span><span className="font-medium text-white">Fragmentation and Scope:</span> Open resources are scattered across domains (software, data, hardware, research, designs, media, etc.)</span>
               </li>
               <li className="flex items-start"><i className="fas fa-dot-circle text-red-400 mt-1 mr-3"></i>
-                <span><span className="font-medium text-white">Technical Complexity:</span> Heterogeneous data: Unifying metadata for code, papers, datasets, designs is hard—there's no single schema</span>
+                  <span><span className="font-medium text-white">Technical Complexity:</span> Heterogeneous data: Unifying metadata for code, papers, datasets, designs is hard—there&apos;s no single schema</span>
               </li>
               <li className="flex items-start"><i className="fas fa-dot-circle text-red-400 mt-1 mr-3"></i>
                 <span><span className="font-medium text-white">Data Licensing & Legal Issues:</span> Licensing and copyright: Even open data and research have varied licenses; combining or redistributing can be legally tricky</span>
